@@ -1,0 +1,51 @@
+ru:
+  meta:
+    title: White Crow Pictures
+    description: "White Crow Pictures это находящаяся в Нью Йорке фотостудия. Наши фотографы специализирущтся в портретной фотографии. У нас все получается!"
+    keywords: "photography, professional, photo shoot, studio, maternity, family, portraits, galleries, portfolio, New York"
+  header:    
+    menu: Menu
+    home: Главная
+    photography: Фото
+    portfolio: Фолио
+    gallery: Галереи
+    contact: Контакт
+    admin: Админ    
+    language: ENG
+  footer:
+    text: '2014 Все права защищены'
+  page:
+    shared:
+      more: Клик
+      search: Поиск
+      gallery: Фотогалереи
+      archive: Архив
+    home:
+      page_title: Главная страница студии
+      main_text: Добро пожаловать на наш сайт!
+    photography:
+      page_title: Фотография
+      main_text: Профессиональные фотосессии
+    portfolio:
+      page_title: Портфолио
+      main_text: Портфолио нашей студии
+    gallery:
+      page_title: Галереи
+      main_text: Фотогалерея
+    contact:
+      page_title: Контактная форма
+      main_text: Оставьте нам сообщение
+      form_labels:
+        name: "Ваше имя"
+        phone: "Телефон"        
+        email: "E-mail"
+        message: "Сообщение"
+        send: "Отправить"
+        clear: "Сбросить"
+      errors:
+        name: "Неверное имя"
+        phone: "Неправильный номер телефона"    
+        email: "Неправильный e-mail"
+        message: "Сообщение слишком короткое"
+        required: "Это поле нужно заполнить"
+

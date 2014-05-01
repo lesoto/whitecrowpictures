@@ -1,0 +1,25 @@
+<header>
+      <div class="container clearfix">
+    <div class="row">
+          <div class="span12">
+        <div class="navbar navbar_">
+              <div class="container">
+            <h1 class="brand brand_"><a href="/"><img alt="<%= t('meta.title') %>" src="assets/logo-top.jpg"></a></h1>
+            <a class="btn btn-navbar btn-navbar_" data-toggle="collapse" data-target=".nav-collapse_"><%= t('header.menu') %>"> <span class="icon-bar"></span> </a>
+            <div class="nav-collapse nav-collapse_  collapse">
+                  <ul class="nav sf-menu">
+                <li class="<%= 'active' if current_page?(root_url) %>"><a href="/" title="<%= t('header.home') %>"><%= t('header.home') %></a></li>
+                <li class="<%= 'active' if current_page?(photography_path) %>"><a href="photography" title="<%= t('header.photography') %>"><%= t('header.photography')%></a></li>
+                <li class="<%= 'active' if current_page?(portfolio_path) %>"><a href="portfolio" title="<%= t('header.portfolio') %>"><%= t('header.portfolio') %></a></li>
+                <li class="<%= 'active' if current_page?(gallery_path) %>"><a href="gallery" title="<%= t('header.gallery') %>"><%= t('header.gallery')%></a></li>
+                <li class="<%= 'active' if current_page?(contact_path) %>"><a href="contact" title="<%= t('header.contact') %>"><%= t('header.contact') %></a></li>
+                <li><a target="new" href="/admin" title="<%= t('header.admin') %>"><%= t('header.admin') %></a></li>
+                <li><a href="?locale=ru" title="<%= t('header.language') %>"><%= t('header.language') %></a></li>
+              </ul>
+                </div>
+          </div>
+            </div>
+      </div>
+        </div>
+  </div>
+ </header>

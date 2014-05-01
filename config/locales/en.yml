@@ -1,0 +1,111 @@
+en:
+  meta:
+    title: White Crow Pictures
+    description: "White Crow Pictures is a New York City photo agency. Professional photographer in New York City. Specializing in portrait, performance and family studio photography. We take beautiful pictures!"
+    keywords: "photography, professional, photo shoot, studio, maternity, family, portraits, galleries, portfolio, New York"
+  header:
+    menu: Menu
+    home: Home
+    photography: Photo
+    portfolio: Folio
+    gallery: Galleries
+    contact: Contact
+    admin: Admin
+    language: Russian
+  footer:
+    text: 2014 All rights reserved
+  page:
+    shared:
+      more: More
+      search: Search
+      gallery: Photo Galleries
+      archive: Archive
+    home:
+      page_title: Studio Home
+      main_text: Welcome to our website
+    photography:
+      page_title: Photography Sessions
+      main_text: Photoshoots
+    portfolio:
+      page_title: Portfolio
+      main_text: Photography Portfolio
+    gallery:
+      page_title: Galleries
+      main_text: Photography galleries
+    contact:
+      page_title: Contact us
+      main_text: Get in touch
+      form_labels:
+        name: Your Name
+        phone: Phone      
+        email: E-mail
+        message: Message
+        send: Send
+        clear: Clear
+      errors:
+        name: "This is not a valid name"
+        phone: "This is not a valid phone number"    
+        email: "This is not a valid e-mail address"
+        message: "The message is too short"
+        required: "This field is required"
+  date:
+    abbr_day_names:
+    - Sun
+    - Mon
+    - Tue
+    - Wed
+    - Thu
+    - Fri
+    - Sat
+    abbr_month_names:
+    -
+    - Jan
+    - Feb
+    - Mar
+    - Apr
+    - May
+    - Jun
+    - Jul
+    - Aug
+    - Sep
+    - Oct
+    - Nov
+    - Dec
+    day_names:
+    - Sunday
+    - Monday
+    - Tuesday
+    - Wednesday
+    - Thursday
+    - Friday
+    - Saturday
+    formats:
+      default: ! '%Y-%m-%d'
+      long: ! '%B %d, %Y'
+      short: ! '%b %d'
+    month_names:
+    -
+    - January
+    - February
+    - March
+    - April
+    - May
+    - June
+    - July
+    - August
+    - September
+    - October
+    - November
+    - December
+    order:
+    - :year
+    - :month
+    - :day
+  time:
+    am: am
+    formats:
+      default: ! '%a, %d %b %Y %H:%M:%S %z'
+      long: ! '%B %d, %Y %H:%M'
+      short: ! '%d %b %H:%M'
+    pm: pm
+

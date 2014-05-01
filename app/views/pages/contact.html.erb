@@ -1,0 +1,57 @@
+<div class="bg-content"> 
+      <div id="content">
+    <div class="container">
+          <div class="row">
+        <article class="span8">
+              <h3><%= t('page.contact.page_title') %></h3>
+              <div class="inner-1">
+            <form id="contact-form">
+                  <div class="success"> Contact form submitted! <strong>We will be in touch soon.</strong> </div>
+                  <fieldset>
+                <div>
+                    <label class="name">
+                    <input type="text" placeholder="<%= t('page.contact.form_labels.name') %>">
+                  <br>
+                    <span class="error">* <%= t('page.contact.errors.name') %></span> <span class="empty">* <%= t('page.contact.errors.required') %></span> </label>
+                    </div>
+                  <div>
+                    <label class="phone">
+                    <input type="tel" placeholder="<%= t('page.contact.form_labels.phone') %>">
+                    <br>
+                    <span class="error">* <%= t('page.contact.errors.phone') %></span> <span class="empty"> <%= t('page.contact.errors.required') %></span> </label>
+                    </div>
+                <div>
+                    <label class="email">
+                    <input type="email" placeholder="<%= t('page.contact.form_labels.email') %>">
+                    <br>
+                    <span class="error">* <%= t('page.contact.errors.email') %></span> <span class="empty">* <%= t('page.contact.errors.required') %></span> </label>
+                    </div>
+                <div>
+                    <label class="message">
+                    <textarea><%= t('page.contact.form_labels.message') %>: </textarea>
+                    <br>
+                    <span class="error">* <%= t('page.contact.errors.messagee') %></span> <span class="empty">* <%= t('page.contact.errors.required') %></span> </label>
+                    </div>
+                <div class="buttons-wrapper"> <a class="btn btn-1" data-type="reset"><%= t('page.contact.form_labels.clear') %></a> <a class="btn btn-1" data-type="submit"><%= t('page.contact.form_labels.send') %></a></div>
+              </fieldset>
+                </form>
+          </div>
+            </article>
+        <article class="span4">
+              <h3><%= t('page.contact.main_text') %></h3>
+              <div class="map">
+            <iframe src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Manhattan,+New+York,+NY,+United+States&amp;aq=0&amp;ie=UTF8&amp;hq=&amp;hnear=Manhattan,+New+York,+New+York&amp;ll=40.7986162,-73.9380858&amp;spn=0.01628,0.025663&amp;z=14&amp;iwloc=A&amp;output=embed"> </iframe>
+          </div>
+              <address class="address-1">
+          <strong>White Crow Pictures<br>
+              335 East 118 street<br>
+              New York, NY 10035</strong>
+          <div class="overflow"> <span>Phone:</span>+1 718 972 9501<br>
+                <span>Email:</span> <a href="#" class="mail-1">anyared@gmail</a><br>
+                <span>Skype:</span> <a href="#" class="mail-1">anyared</a></div>
+          </address>
+            </article>
+      </div>
+        </div>
+  </div>
+    </div>

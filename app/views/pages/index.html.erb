@@ -1,0 +1,94 @@
+<div class="bg-content">
+      <div class="container">
+    <div class="row">
+          <div class="span12">
+  <div class="flexslider">
+              <ul class="slides">
+            <li> <img src="assets/slide-1.jpg" alt="" > </li>
+            <li> <img src="assets/slide-2.jpg" alt="" > </li>
+            <li> <img src="assets/slide-3.jpg" alt="" > </li>
+            <li> <img src="assets/slide-4.jpg" alt="" > </li>
+            <li> <img src="assets/slide-5.jpg" alt="" > </li>
+            </ul>
+    </div>
+    <span id="responsiveFlag"></span>
+        <div class="block-slogan">
+              <h2>Welcome!</h2>
+              <div>
+            <p>Sed ut perspictis unde omnis natus error volupatem accusantium doloue laudantium, totam rem. Aperiam, eaque ipsa quae ab illo  veritatis et beatae vitae dicta sunt explicabo nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed</p>
+          </div>
+            </div>
+      </div>
+        </div>
+  </div>
+
+  <div id="content" class="content-extra">
+    <div class="row-1">
+          <div class="container">
+        <div class="row">
+              <ul class="thumbnails thumbnails-1">
+            <% @galleries.each do |g| %>
+            <li class="span3">
+                  <div class="thumbnail thumbnail-1">
+                <h3><%= g.title %></h3>
+                <img src="assets/<%= g.image_file_name %>" alt="<%= g.description %>">
+                <section> <strong><%= g.keywords %></strong>
+                      <p><%= g.description %></p>
+                      <a href="#" class="btn btn-1"><%= t('page.shared.more') %></a> </section>
+              </div>
+                </li>
+      <% end %>
+          </ul>
+            </div>
+      </div>
+        </div>
+
+    <div class="container">
+          <div class="row">
+        <article class="span6">
+              <h3>Shortly about me</h3>
+              <div class="wrapper">
+            <figure class="img-indent"><img src="assets/anya2.jpg" alt="" /></figure>
+            <div class="inner-1 overflow extra">
+                  <div class="txt-1">Sed ut perspictis unde omnis natus error volupatem accusantium doloue laudantium, totam rem.</div>
+                  Aperiam, eaque ipsa quae ab illo  veritatis et beatae vitae dicta sunt explicabo nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed
+                  <div class="border-horiz"></div>
+                  <div class="overflow">
+                <ul class="list list-pad">
+                      <li><a href="#">Our Studio</a></li>
+                      <li><a href="#">Portraits</a></li>
+                      <li><a href="#">Fashion Shots</a></li>
+                      <li><a href="#">Fine Art</a></li>
+                    </ul>
+                <ul class="list">
+                      <li><a href="#">Family Photo</a></li>
+                      <li><a href="#">Weddings</a></li>
+                      <li><a href="#">Love story</a></li>
+                      <li><a href="#">Landscapes</a></li>
+                    </ul>
+              </div>
+                </div>
+          </div>
+            </article>
+        <article class="span6">
+              <h3>Latest photoshoots</h3>
+              <ul class="list-photo">
+            <li><a href="assets/fullsize/family2.jpg" class="magnifier" ><img src="assets/latest/latest1.jpg" alt="" /></a></li>
+            <li><a href="assets/fullsize/family1.jpg" class="magnifier" ><img src="assets/latest/latest2.jpg" alt="" /></a></li>
+            <li><a href="assets/fullsize/family3.jpg" class="magnifier" ><img src="assets/latest/latest3.jpg" alt="" /></a></li>
+            <li class="last"><a href="assets/fullsize/family4.jpg" class="magnifier" ><img src="assets/latest/latest4.jpg" alt="" /></a></li>
+            <li><a href="assets/fullsize/musician1.jpg" class="magnifier" ><img src="assets/latest/latest5.jpg" alt="" /></a></li>
+            <li><a href="assets/fullsize/musician2.jpg" class="magnifier" ><img src="assets/latest/latest6.jpg" alt="" /></a></li>
+            <li><a href="assets/fullsize/portfolio1.jpg" class="magnifier" ><img src="assets/latest/portfolio1.jpg" alt="" /></a></li>
+            <li class="last"><a href="assets/fullsize/portfolio2.jpg" class="magnifier" ><img src="assets/latest/portfolio2.jpg" alt="" /></a></li>
+            <li><a href="assets/fullsize/portfolio3.jpg" class="magnifier" ><img src="assets/latest/portfolio3.jpg" alt="" /></a></li>
+            <li><a href="assets/fullsize/portfolio4.jpg" class="magnifier" ><img src="assets/latest/portfolio4.jpg" alt="" /></a></li>
+            <li><a href="assets/fullsize/portfolio5.jpg" class="magnifier" ><img src="assets/latest/portfolio5.jpg" alt="" /></a></li>
+            <li class="last"><a href="assets/fullsize/portfolio6.jpg" class="magnifier" ><img src="assets/latest/portfolio6.jpg" alt="" /></a></li>
+          </ul>
+            </article>
+      </div>
+        </div>
+  </div>
+    </div>
+    </div>
