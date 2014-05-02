@@ -22,6 +22,9 @@ Here are the steps necessary to get everything running on the production.
     config.assets.initialize_on_precompile = false     
     config.assets.paths << "#{Rails.root}/app/assets/fonts""
 
+    config.serve_static_assets = true 
+  
+
 (5) Create new Git repository for your project
 
 	$ git init
@@ -40,5 +43,6 @@ or
 
 (7) Database creation and upload
 	$ heroku config | grep HEROKU_POSTGRESQL
-	$ heroku pg:push mylocaldb HEROKU_POSTGRESQL_MAGENTA
+	$ heroku pg:push whitecrow HEROKU_POSTGRESQL_GRAY_URL
 
+	$ heroku run rake db:migrate
