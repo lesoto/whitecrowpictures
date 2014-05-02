@@ -8,9 +8,9 @@ Here are the steps necessary to get everything running on the production.
 
 (1) Download White Crow Pictures application from GitHub - 
 	
-	git clone git@heroku.com:whitecrowpictures.git
+	$ git clone git@heroku.com:whitecrowpictures.git
  
-(2) bundle install
+(2) $ bundle install
 
 (3) Create assets.rb configuration file and a line "Rails.application.config.assets.precompile = [/^[a-z0-9\/]*[a-z0-9]\w+.(css|js|scss)$/]" . run rake:assets:precompile 
 
@@ -24,28 +24,21 @@ Here are the steps necessary to get everything running on the production.
 
 (5) Create new Git repository for your project
 
-$ git init
-$ git add .
-$ git commit -m "init"
+	$ git init
+	$ git add .
+	$ git commit -m "init"
+	$ git push --set-upstream https://github.com/lesoto/whitecrowpictures.git master
+or
+	$ git remote add origin https://github.com/lesoto/whitecrowpictures.git
+	$ git push -u origin master
 
 (6) Create Heroku application
 
-heroku create
+	$ heroku create
+	$ heroku apps:rename newname
+	$ git push heroku master
 
-* Configuration
+(7) Database creation and upload
+	$ heroku config | grep HEROKU_POSTGRESQL
+	$ heroku pg:push mylocaldb HEROKU_POSTGRESQL_MAGENTA
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
