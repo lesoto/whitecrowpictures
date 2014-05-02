@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang='<%= I18n.locale.to_s %>'>
+<html lang='<%= I18n.locale.to_s %>' <% if I18n.locale.to_s == 'he' %>dir="rtl"<% end%>>
 <head>
     <title><%= t('meta.title') %></title>
     <meta name="description" content="<%= t('meta.description') %>">
@@ -47,7 +47,7 @@
   		  }); 	
 	</script>
 </head>
-<body>
+<body <% if I18n.locale.to_s == 'he' %>dir="rtl"<% end%>>
 <%# if current_page?(root_url) %><!-- <div class="spinner"></div> --><%# end %>
 <%= render 'shared/header' %>
 <%= yield %>

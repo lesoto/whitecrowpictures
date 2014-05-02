@@ -5,36 +5,7 @@
         <article class="span8">
               <h3><%= t('page.contact.page_title') %></h3>
               <div class="inner-1">
-            <form id="contact-form">
-                  <div class="success"> Contact form submitted! <strong>We will be in touch soon.</strong> </div>
-                  <fieldset>
-                <div>
-                    <label class="name">
-                    <input type="text" placeholder="<%= t('page.contact.form_labels.name') %>">
-                  <br>
-                    <span class="error">* <%= t('page.contact.errors.name') %></span> <span class="empty">* <%= t('page.contact.errors.required') %></span> </label>
-                    </div>
-                  <div>
-                    <label class="phone">
-                    <input type="tel" placeholder="<%= t('page.contact.form_labels.phone') %>">
-                    <br>
-                    <span class="error">* <%= t('page.contact.errors.phone') %></span> <span class="empty"> <%= t('page.contact.errors.required') %></span> </label>
-                    </div>
-                <div>
-                    <label class="email">
-                    <input type="email" placeholder="<%= t('page.contact.form_labels.email') %>">
-                    <br>
-                    <span class="error">* <%= t('page.contact.errors.email') %></span> <span class="empty">* <%= t('page.contact.errors.required') %></span> </label>
-                    </div>
-                <div>
-                    <label class="message">
-                    <textarea><%= t('page.contact.form_labels.message') %>: </textarea>
-                    <br>
-                    <span class="error">* <%= t('page.contact.errors.messagee') %></span> <span class="empty">* <%= t('page.contact.errors.required') %></span> </label>
-                    </div>
-                <div class="buttons-wrapper"> <a class="btn btn-1" data-type="reset"><%= t('page.contact.form_labels.clear') %></a> <a class="btn btn-1" data-type="submit"><%= t('page.contact.form_labels.send') %></a></div>
-              </fieldset>
-                </form>
+              <%= render 'shared/form' %>
           </div>
             </article>
         <article class="span4">

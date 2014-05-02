@@ -8,6 +8,7 @@ gem 'pg'
 gem 'thin'
 gem 'i18n'
 gem 'activeadmin', github: 'gregbell/active_admin'
+#gem 'rails-localization'
 
 group :production do
   #ruby '2.0.0'

@@ -1,0 +1,111 @@
+he:
+  meta:
+    title: לבן עורב תמונות
+    description: "לבן עורב תמונות היא סוכנות צילום בניו יורק סיטי. צלם מקצועי בניו יורק סיטי. המתמחה בדיוקן, ביצועים וצילום סטודיו משפחתי. אנחנו לוקחים תמונות יפות!"
+    keywords: "צילום, מקצועי, צילומי סטודיו, לידה, משפחה, פורטרטים, גלריות, תיק, ניו יורק"
+  header:
+    menu: תפריט
+    home: דף בית
+    photography: תצלום
+    portfolio: תיק
+    gallery: גלריות
+    contact: מגע
+    admin: מנהל
+    language: עברית
+  footer:
+    text: 2014 כל הזכויות שמורות
+  page:
+    shared:
+      more: יותר
+      search: לחפש
+      gallery: תצלום גלריות
+      archive: ארכיון
+    home:
+      page_title: סטודיו בית
+      main_text: ברוכים הבאים לאתר שלנו
+    photography:
+      page_title: הפעלות צילום
+      main_text: יורה תמונה
+    portfolio:
+      page_title: תצלום
+      main_text: תצלום תצלום
+    gallery:
+      page_title: גלריות
+      main_text: תצלום גלריות
+    contact:
+      page_title: מגע
+      main_text: להתקשר
+      form_labels:
+        name: Yהשם שלך
+        phone: טלפון      
+        email: דואר אלקטרוני
+        message: הודעה
+        send: לשלוח
+        clear: ברור
+      errors:
+        name: "זה לא שם חוקי"
+        phone: "זה לא מספר טלפון חוקי"    
+        email: "זו אינה כתובת דואר אלקטרוני חוקית"
+        message: "המסר הוא קצר מדי"
+        required: "שדה זה נדרש"
+  date:
+    abbr_day_names:
+    - Sun
+    - Mon
+    - Tue
+    - Wed
+    - Thu
+    - Fri
+    - Sat
+    abbr_month_names:
+    -
+    - Jan
+    - Feb
+    - Mar
+    - Apr
+    - May
+    - Jun
+    - Jul
+    - Aug
+    - Sep
+    - Oct
+    - Nov
+    - Dec
+    day_names:
+    - Sunday
+    - Monday
+    - Tuesday
+    - Wednesday
+    - Thursday
+    - Friday
+    - Saturday
+    formats:
+      default: ! '%Y-%m-%d'
+      long: ! '%B %d, %Y'
+      short: ! '%b %d'
+    month_names:
+    -
+    - January
+    - February
+    - March
+    - April
+    - May
+    - June
+    - July
+    - August
+    - September
+    - October
+    - November
+    - December
+    order:
+    - :year
+    - :month
+    - :day
+  time:
+    am: am
+    formats:
+      default: ! '%a, %d %b %Y %H:%M:%S %z'
+      long: ! '%B %d, %Y %H:%M'
+      short: ! '%d %b %H:%M'
+    pm: pm
+
