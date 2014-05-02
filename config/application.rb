@@ -15,5 +15,7 @@ module Whitecrowpictures
     I18n.default_locale = :en
     I18n.enforce_available_locales = false
     config.serve_static_assets = true
+    config.assets.enabled = true
+    config.assets.precompile = [/^[a-z0-9\/]*[a-z0-9]\w+.(css|js|scss|jpg|gif|png)$/]
   end
 end
