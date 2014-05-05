@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"a",
+				"action	Attr"
+			],
+			[
+				"tr",
+				"true"
+			],
+			[
 				"media",
 				"mediaUriTemplate"
 			],
@@ -139,6 +147,46 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 1994,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "config/locales/he.yml",
+			"settings":
+			{
+				"buffer_size": 2147,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/shared/_header.html.erb",
+			"settings":
+			{
+				"buffer_size": 1837,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/application_controller.rb",
+			"settings":
+			{
+				"buffer_size": 356,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Gemfile",
+			"settings":
+			{
+				"buffer_size": 857,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -224,6 +272,21 @@
 	},
 	"file_history":
 	[
+		"/Users/lesoto/webroot/whitecrowpictures/config/environments/production.rb",
+		"/Users/lesoto/webroot/whitecrowpictures/app/views/pages/contact.html.erb",
+		"/Users/lesoto/webroot/whitecrowpictures/app/views/shared/_form.html.erb",
+		"/Users/lesoto/webroot/whitecrowpictures/config/application.rb",
+		"/Users/lesoto/webroot/whitecrowpictures/app/views/layouts/application.html.erb",
+		"/Users/lesoto/Desktop/application2.html.erb",
+		"/Users/lesoto/Desktop/application.html 3.erb",
+		"/Users/lesoto/webroot/whitecrowpictures/app/mailers/contact_mailer.rb",
+		"/Users/lesoto/webroot/whitecrowpictures/config/routes.rb",
+		"/Users/lesoto/webroot/whitecrowpictures/app/views/pages/contact_email.html.erb",
+		"/Users/lesoto/webroot/whitecrowpictures/app/controllers/pages_controller.rb",
+		"/Users/lesoto/webroot/whitecrowpictures/.gitignore",
+		"/Users/lesoto/webroot/whitecrowpictures/rakefile",
+		"/Users/lesoto/webroot/whitecrowpictures/db/data.yml",
+		"/Users/lesoto/webroot/whitecrowpictures/config/database.yml",
 		"/Users/lesoto/webroot/whitecrow/app/controllers/pages_controller.rb",
 		"/Users/lesoto/webroot/whitecrow/app/controllers/application_controller.rb",
 		"/Users/lesoto/webroot/whitecrow/app/views/pages/design.html.erb",
@@ -336,22 +399,7 @@
 		"/C/Users/edward.silverton/Google Drive/blog/seance-theme/bower.json",
 		"/C/Users/edward.silverton/Google Drive/blog/seance-theme/package.json",
 		"/C/Users/edward.silverton/Work/wellcome/player/src/extensions/coreplayer-mediaelement-extension/extension.ts",
-		"/C/Users/edward.silverton/Work/wellcome/player/src/modules/coreplayer-seadragoncenterpanel-module/seadragonCenterPanel.ts",
-		"/C/Users/edward.silverton/Work/wellcome/player/package.json",
-		"/C/Users/edward.silverton/Work/wellcome/player/src/modules/example-filelinkcenterpanel-module/fileLinkCenterPanel.ts",
-		"/C/Users/edward.silverton/Work/wellcome/player/src/extensions/coreplayer-seadragon-extension/extension.ts",
-		"/C/Users/edward.silverton/Google Drive/blog/Ghost/.gitignore",
-		"/C/Users/edward.silverton/Google Drive/blog/Ghost/config.js",
-		"/C/Users/edward.silverton/Work/wellcome/player/index.html",
-		"/C/Users/edward.silverton/Work/blog/Ghost/config.js",
-		"/C/Users/edward.silverton/Google Drive/nature-of-code/src/main.ts",
-		"/C/Users/edward.silverton/Google Drive/nature-of-code/src/processing/p.d.ts",
-		"/C/Users/edward.silverton/Google Drive/nature-of-code/src/chapters/oscillation/pointingDirectionOfMotion.ts",
-		"/C/Users/edward.silverton/Google Drive/nature-of-code/src/chapters/oscillation/mover2.ts",
-		"/C/Users/edward.silverton/Google Drive/nature-of-code/src/chapters/oscillation/polarToCartesian.ts",
-		"/C/Users/edward.silverton/Google Drive/nature-of-code/src/chapters/oscillation/mover.ts",
-		"/C/Users/edward.silverton/Google Drive/nature-of-code/src/chapters/oscillation/forcesAngularMotion.ts",
-		"/C/Users/edward.silverton/Google Drive/nature-of-code/src/processing/sketch.ts"
+		"/C/Users/edward.silverton/Work/wellcome/player/src/modules/coreplayer-seadragoncenterpanel-module/seadragonCenterPanel.ts"
 	],
 	"find":
 	{
@@ -362,6 +410,7 @@
 		"height": 90.0,
 		"where_history":
 		[
+			"/Users/lesoto/webroot/whitecrowpictures",
 			"/Users/lesoto/webroot/whitecrow",
 			""
 		]
@@ -371,6 +420,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"contact_email",
 			"current_photographer",
 			"friendly_id",
 			"layout 'layout'",
@@ -497,8 +547,7 @@
 			"searchForItem",
 			".text",
 			".val",
-			"console",
-			"getterms"
+			"console"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -544,8 +593,156 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1994,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1211,
+								1211
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "config/locales/he.yml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2147,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1318,
+								1318
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/YAML/YAML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 85.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/views/shared/_header.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1837,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1701,
+								1701
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/controllers/application_controller.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 356,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								304,
+								350
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "Gemfile",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 857,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								133,
+								31
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
 			]
 		}
 	],

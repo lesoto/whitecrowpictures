@@ -28,10 +28,8 @@ module Whitecrowpictures
 	ActionMailer::Base.smtp_settings = {
     address: 'smtp.mandrillapp.com',
     port: 587,
-    #user_name: ENV['MANDRILL_USERNAME'],
-    #password: ENV['MANDRILL_APIKEY']
-    #user_name: 'dima@pesochin.com',
-    #password: 'pOVU3eT21EnZ_wsgM5eR1w'
+    user_name: ENV['MANDRILL_USERNAME'],
+    password: ENV['MANDRILL_APIKEY']
 }
   end
 end
